@@ -53,7 +53,7 @@ const CreatePost = () => {
                         <textarea value={body} onChange={(e) => setValues({ ...values, body: e.target.value })} placeholder='Enter Post Description' className="form-control" id="exampleFormControlTextarea1" rows={3} defaultValue={""} />
                     </div>
                     <button className="btn btn-primary"
-                        onClick={() => navigate('/')}>Go Home</button>
+                        onClick={() => navigate('/BLOG_CRUD_APP')}>Go Home</button>
                     <button type='submit'
                         className="btn btn-danger ms-4"
                         onClick={handleSubmit}>Submit</button>
