@@ -1,5 +1,6 @@
 {
   "name": "blog_crud_app",
+  "homepage": "https://rohankumar50.github.io/BLOG_CRUD_APP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -21,7 +21,7 @@ function App() {
 
       <div className="Container">
         <Routes>
-          <Route path='/' element={<Posts />} />
+          <Route path='/BLOG_CRUD_APP' element={<Posts />} />
           <Route path='createpost' element={<CreatePost />} />
         </Routes>
       </div>
